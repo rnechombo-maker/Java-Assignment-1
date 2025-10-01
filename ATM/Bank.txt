@@ -1,0 +1,10 @@
+Roy Nyasha Nechombo checked balance: 400.0
+Roy Nyasha Nechombo checked balance: 1000.0
+Roy Nyasha Nechombo Deposited 200.0. New Balance is: 1200.0
+Roy Nyasha Nechombo checked balance: 1200.0
+Roy Nyasha Nechombo Withdrew100.0. New Balance is: 1100.0
+Roy Nyasha Nechombo checked balance: 1100.0
+Roy Nyasha Nechombo Withdrew700.0. New Balance is: 400.0
+Roy Nyasha Nechombo checked balance: 400.0
+Roy Nyasha Nechombo attempted invalid deposit: -50.0
+Roy Nyasha Nechombo checked balance: 400.0

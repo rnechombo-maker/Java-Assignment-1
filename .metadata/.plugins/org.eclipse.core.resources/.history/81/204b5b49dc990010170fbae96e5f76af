@@ -1,0 +1,31 @@
+package exception;
+
+class InvalidAgeExc extends Exception{
+	public InvalidAgeExc (String message) {
+		super(message);
+	}
+}
+
+public class CustomException {
+	public static void main(String[] args) {
+		int age=21;
+		
+		try {
+			checkAge(age);
+			
+		} catch(InvalidAgeExc e){
+			System.out.println("Caught Exception :" + e.getMessage());
+		}
+		
+	}
+
+
+public static void checkAge(int age) throws InvalidAgeExc {
+    if (age < 18) {
+        throw new InvalidAgeExc("Access denied – You must be at least 18 years old.");
+    } else {
+        System.out.println("Access granted – You are old enough!");
+    }
+}
+}
+
